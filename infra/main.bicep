@@ -1,3 +1,9 @@
+//
+// [ Darani Sai G@14-08-2024 ] Created this bicep file as a basic template is required to setup environment.
+// 
+
+
+
 targetScope = 'subscription'
 
 @minLength(1)

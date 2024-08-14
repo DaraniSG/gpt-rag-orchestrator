@@ -25,6 +25,10 @@ steps:
       azd config set auth.useAzCliAuth "true"
     displayName: Configure AZD to Use AZ CLI Authentication.
 
+  ##
+  ## [ Darani Sai G@14-08-2024 ] Removed  Provision Infrastructure task, If infrastructure not providioned yet, Please gothrough GPT-RAG (v2) steps.
+  ## 
+
   - task: AzureCLI@2
     displayName: Package Services
     inputs:
